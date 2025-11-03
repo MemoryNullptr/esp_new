@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="title-bar">
+        <p>GraalCheat.exe</p>
+        <div id="buttons">
+            <div id="minimize">
+                <p>-</p>
+            </div>
+            <div id="exit">
+                <p>×</p>
+            </div>
+        </div>
+    </div>
+    <header> <img src="logo.png">
+        <h1>ESP CHEAT</h1>
+    </header>
+    <div id="content">
+        <div class="cheat">
+            <h2>ESP MUSHROOM</h2>
+            <label class="switch">
+                <input type="checkbox" id="esp_mushroom" disabled >
+                <span class="slider" ></span>
+            </label>
+        </div>
+        <div class="cheat">
+            <h2>ESP TRASH</h2>
+            <label class="switch">
+                <input type="checkbox"  id="esp_trash" disabled >
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div id="status-bar">
+            STATUS: <span id="status-text">INACTIVE</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        initialize();
+    </script>
+</body>
+
+</html>
